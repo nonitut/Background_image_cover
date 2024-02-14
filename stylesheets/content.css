@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+
+@font-face {
+font-family: "CarlaSansLight";
+src: url("../fonts/CarlaSansLight.ttf") format("truetype");
+font-style: Light;
+font-weight: Light;
+}
+
+p,h1,h2,h3,h4{
+    font-family: 'CarlaSansLight';
+    font-size: 40px;
+    color: white;
+    z-index: 1000;
+    padding-left: 20px;
+
+}
+
+.background {
+    position: relative;
+    width: 100vw;
+    background-image: url('../img/1.png'); 
+    background-size: cover;
+    background-attachment: fixed; 
+
+}
+
+
+#section1, #section2 {
+    background-color: rgba(16, 16, 16, 0.654);
+    height: 2000px;
+
+}
+
